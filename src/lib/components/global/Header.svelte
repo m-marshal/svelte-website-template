@@ -83,13 +83,13 @@
   }
   .moon {
       color: #00ff12;
-      width: 32px;
-      height: 32px;
+      width: 26px;
+      height: 26px;
     }
 
     .sun {
-      color: #00ff12;
-      width: 32px;
-      height: 32px;
+      color: #000000;
+      width: 26px;
+      height: 26px;
     }
 </style>
