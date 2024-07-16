@@ -7,7 +7,7 @@
   let password = "";
   let username = "";
 
-  function chckempty(event) {
+  function chckempty() {
     if (password === "" || username === "") {
       alert("One or more fields are empty");
       event.preventDefault();

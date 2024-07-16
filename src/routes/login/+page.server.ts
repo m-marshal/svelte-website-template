@@ -30,14 +30,6 @@ export const actions: Actions = {
         }
       });
 
-      if (username == ""){
-        return
-      }
-
-      if (password == ""){
-        return
-      }
-
       if (!user) {
         throw redirect(303, '/success/unotfound');
       }

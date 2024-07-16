@@ -1,9 +1,5 @@
 <script lang="ts">
-  export let loggedIn = false;
-
-  import { page } from '$app/stores';
-  $: loggedIn = $page.data.loggedIn;
-
+  
   let username = "";
   let password = "";
   let confpassword = "";
@@ -29,12 +25,9 @@
       alert("Passwords do not match");
       return;
     }
-
-    // Additional logic or submission handling can be added here
   }
 </script>
 
-{#if !loggedIn}
 <div class="relative inset-0 flex items-center justify-center bg-transparent z-40 animate-flip-down">
   <form method="POST" action="?/create" class="relative mt-10 inset-0 flex items-center justify-center min-h-screen w-full py-8 bg-transparent z-50 animate-flip-down">
     <section class="border dark:border-white dark:bg-black dark:text-white border-gray-400 bg-gray-200 text-black p-8 rounded-3xl shadow-lg z-50 w-full max-w-sm font-mono animate-delay-200 md:max-w-md">
@@ -55,8 +48,3 @@
     </section>
   </form>
 </div>
-{:else}
-<script>
-  window.location.href = '/dashboard';
-</script>
-{/if}
