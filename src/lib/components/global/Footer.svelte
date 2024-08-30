@@ -49,10 +49,10 @@
                         <a href="/about" class="hover:underline me-4 md:me-6">About</a>
                     </li>
                     <li>
-                        <a href="https://github.com/s-marshal-dev" class="hover:underline me-4 md:me-6">Contact</a>
+                        <a href="https://github.com/m-marshal" class="hover:underline me-4 md:me-6">Contact</a>
                     </li>
                     <li>
-                        <a href="https://github.com/s-marshal-dev/svelte-website-template" class="hover:underline me-4 md:me-6">Repository</a>
+                        <a href="https://github.com/m-marshal/svelte-website-template" class="hover:underline me-4 md:me-6">Repository</a>
                     </li>
                 </ul>
             </div>
